@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#111722" />
+  <rect x="0.5" y="0.5" width="599" height="599" fill="none" stroke="#232B36" />
+  <text
+    x="300"
+    y="330"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="180"
+    font-weight="700"
+    fill="#39D353"
+  >HS</text>
+</svg>
