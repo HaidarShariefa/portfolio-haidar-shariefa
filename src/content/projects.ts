@@ -12,8 +12,8 @@ export const projects: Project[] = [
       "Engineered around production rough edges: a hanging SDK call, a shared API quota to protect, and a stale-session bug",
     ],
     tech: ["Next.js 16", "TypeScript", "MongoDB", "NextAuth v5", "Vercel Blob"],
-    // liveUrl: "",
-    // repoUrl: "",
+    liveUrl: "https://lalbe3-nextjs.vercel.app/",
+    repoUrl: "https://github.com/HaidarShariefa/lalbe3-nextjs",
     screenshot: "/projects/lal-be3-ai.png",
   },
   {
@@ -22,8 +22,7 @@ export const projects: Project[] = [
     description:
       "A full-featured restaurant QR management system with a modern UI/UX. Foodify provides a comprehensive admin panel for managing a restaurant's menu and an elegant customer-facing interface for seamless order placement, with automatic WhatsApp integration.",
     tech: ["React", "Firebase", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
-    // liveUrl: "",
-    // repoUrl: "",
+    liveUrl: "https://foodify-19a85.web.app/admin/example-restaurant/categories",
     screenshot: "/projects/foodify.png",
   },
   {
@@ -32,8 +31,8 @@ export const projects: Project[] = [
     description:
       "A robust full-stack web application designed to streamline task management, user administration, and reporting. Built with the MERN stack and styled with Tailwind CSS.",
     tech: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-    // liveUrl: "",
-    // repoUrl: "",
+    liveUrl: "https://codex-task-manager.vercel.app/login",
+    repoUrl: "https://github.com/HaidarShariefa/Task-Manager",
     screenshot: "/projects/task-manager.png",
   },
 ];
