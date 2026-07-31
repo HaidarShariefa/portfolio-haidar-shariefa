@@ -48,15 +48,15 @@ export function Hero() {
         <TerminalWindow
           title="avatar.jpg"
           variant="compact"
-          className="w-48 shrink-0 self-center sm:w-56 md:w-64 md:self-start"
-          contentClassName="p-2 sm:p-2.5"
+          className="w-56 shrink-0 self-center sm:w-64 md:w-72 md:self-stretch lg:w-80"
+          contentClassName="p-2 sm:p-2.5 md:flex-1 md:min-h-0"
         >
-          <div className="relative aspect-square overflow-hidden rounded-md">
+          <div className="relative aspect-square overflow-hidden rounded-md md:aspect-auto md:h-full md:w-full">
             <Image
               src={profile.avatar}
               alt={`Portrait of ${profile.name}`}
               fill
-              sizes="(min-width: 768px) 16rem, 12rem"
+              sizes="(min-width: 1024px) 20rem, (min-width: 768px) 18rem, (min-width: 640px) 16rem, 14rem"
               className="object-cover"
               priority
             />

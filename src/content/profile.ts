@@ -4,7 +4,7 @@ export const profile = {
   name: "Haidar Shariefa",
   role: "Software Engineer",
   tagline: "Building Digital Experiences",
-  avatar: "/avatar.svg",
+  avatar: "/avatar.png",
   shortBio:
     "I like turning rough ideas into real, working products — the kind with actual users, not just a demo.",
   bio: "I'm a software engineer who likes turning rough ideas into real, working products — from an AI-assisted marketplace to a restaurant ordering system used by actual customers. I care about the unglamorous parts of shipping: authentication that holds up, APIs that don't fall over under load, and code that still makes sense six months later. My background spans freelance client work, in-house full-stack development, and IT support — which means I've usually got a decent sense of both how something should work and what tends to break in practice. Currently freelancing and always building something new.",
