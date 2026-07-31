@@ -14,7 +14,7 @@ export const projects: Project[] = [
     tech: ["Next.js 16", "TypeScript", "MongoDB", "NextAuth v5", "Vercel Blob"],
     // liveUrl: "",
     // repoUrl: "",
-    // screenshot: "",
+    screenshot: "/projects/lal-be3-ai.png",
   },
   {
     slug: "foodify",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     tech: ["React", "Firebase", "JavaScript", "Tailwind CSS", "Redux Toolkit"],
     // liveUrl: "",
     // repoUrl: "",
-    // screenshot: "",
+    screenshot: "/projects/foodify.png",
   },
   {
     slug: "task-manager",
@@ -34,6 +34,6 @@ export const projects: Project[] = [
     tech: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
     // liveUrl: "",
     // repoUrl: "",
-    // screenshot: "",
+    screenshot: "/projects/task-manager.png",
   },
 ];
