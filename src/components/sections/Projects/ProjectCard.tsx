@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import { GithubIcon } from "@/components/ui/BrandIcons";
 import { Project } from "@/lib/types";
@@ -23,6 +24,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <p className="mt-3 max-w-prose text-base leading-relaxed text-muted">
         {project.description}
       </p>
+
+      {project.screenshot ? (
+        <div className="relative mt-5 aspect-video overflow-hidden rounded-md border border-border">
+          <Image
+            src={project.screenshot}
+            alt={`${project.name} screenshot`}
+            fill
+            sizes="(min-width: 768px) 42rem, 100vw"
+            className="object-cover"
+          />
+        </div>
+      ) : null}
 
       {project.highlights ? (
         <ul className="mt-4 space-y-1.5">
